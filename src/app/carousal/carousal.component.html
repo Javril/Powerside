@@ -1,0 +1,10 @@
+<ngb-carousel interval="15000">
+  <ng-template ngbSlide  *ngFor="let banner of banners">
+    <div class="picsum-img-wrapper">
+      <img height="200" [src]="banner.url" alt="Angular Carousel 1">
+    </div>
+    <div class="carousel-caption">
+      <h1>{{banner.label}}</h1>
+    </div>
+  </ng-template>
+</ngb-carousel>

@@ -1,0 +1,15 @@
+app-register {
+    width: 50%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+tr:nth-child(even) {
+    background-color: #bbbbbb;
+}
+
+th {
+    background-color: #000000 !important;
+    color: #ffffff !important;
+    text-align: center;
+}
